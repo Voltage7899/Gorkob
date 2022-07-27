@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignOrReg"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="524dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/phone_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Телефон"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/pass_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Пароль"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/modeUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Юзер"
+                android:visibility="gone"
+                android:textColor="#ff00e6" />
+            <TextView
+                android:id="@+id/modeAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="#ff00e6"
+                android:text="Админ"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sign_sign"
+            android:layout_width="170dp"
+            android:background="#fe00b8"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:text="Войти как юзер" />
+
+        <Button
+            android:id="@+id/registration"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fe00b8"
+            android:text="Регистрация"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

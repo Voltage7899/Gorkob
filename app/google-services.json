@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "916747035399",
+    "project_id": "gorkov-86513",
+    "storage_bucket": "gorkov-86513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916747035399:android:4daab9a98ae415a8cd1ba2",
+        "android_client_info": {
+          "package_name": "com.example.gorkob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916747035399-5ne07plajoh8inll4aj57m9ca7idrq1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gorkob",
+            "certificate_hash": "01e39568b596bc4fec30a43a78401c09b9ed164d"
+          }
+        },
+        {
+          "client_id": "916747035399-6mv829jj45lis4b4g39idm4l2i37dush.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHSDZyalJ_PVI9IjfhTcsg-99yp2v-UAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916747035399-6mv829jj45lis4b4g39idm4l2i37dush.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
